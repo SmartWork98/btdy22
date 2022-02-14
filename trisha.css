@@ -1,0 +1,80 @@
+
+*{
+	width: 100%;
+	font-family: 'Times New Roman', Times, Serif;
+}
+#bday{
+	background-image: url(color.jpg);
+	background-size: cover;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 100px 0;
+}
+.love{
+	flex-basis: 50%;
+}
+
+.love img{
+	width: 500px;
+	height: 400px;
+	margin-left: 100px;
+}
+.love1{
+	flex-basis: 50%;
+	max-width: 450px;
+}
+.love1 h1{
+	color: #000000;
+	font-size: 40px;
+	font-style: bold;
+	margin-left: 30px;
+}
+#cake{
+	width: 350px;
+	height: 300px;
+	margin-left: 150px;
+}
+#btn{
+	background: transparent;
+	background-color: rgb(150, 69, 150);
+	border: 2px solid;
+	padding: 15px 30px;
+	font-style: bold;
+	width: 200px;
+	margin-left: 75%;
+	margin-top: 60px;
+}
+#btn a{
+	text-decoration: none;
+	color: #000000;
+}
+
+#wish{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 100px 0;
+}
+.wone{
+	flex-basis: 50%;
+}
+.wone img{
+	width: 400px;
+	height: 500px;
+}
+.wtwo{
+	flex-basis: 50%;
+	max-width: 550px;
+	margin-left: 30px;
+}
+.wtwo p{
+	color: #000000;
+	margin-left: 30px;
+
+}
+.wtwo img{
+	width: 450px;
+	height: 750px;
+	margin-left: 30px;
+
+}
